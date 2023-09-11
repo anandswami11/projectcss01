@@ -12,6 +12,7 @@ color: white;
 .container{
     width: 1100px;
     margin: 0 auto;
+    
     /* background-color: rgb(56, 56, 245); */
 }
 .nav{
@@ -25,6 +26,7 @@ background-color: red;
     /* justify-content: center; */
 }
 .logo{
+    color: rgb(61, 126, 61);
     margin-left: 10px;
     float: left;
     padding: 10px 0px;
@@ -47,13 +49,15 @@ background-color: red;
 .banner{
     width: 100%;
     float: left;
-    color: black;
-    opacity: 0.2;
+    
+    /* opacity: 0.2; */
     position: relative;
 }
 .ban{
     width: 100%;
     float: left;
+    color: black;
+    opacity: 0.2;
     position: relative;
 }
 .tage{
@@ -63,13 +67,15 @@ background-color: red;
     z-index: 1;
 }
 .banner-tage-line-1{
-    font-size: 20px;
+    font-size: 14px;
     color: white;
 }
 .banner-tage-line-2{
-font-size: 33px;
+font-size: 27px;
 font-weight: 700;
-color: rgba(9, 31, 230, 0.932);
+color: rgb(61, 126, 61);
+/* color: #007bfc; */
+/* color: rgba(9, 31, 230, 0.932); */
 }
 /* span{
     display: block;
@@ -78,13 +84,14 @@ color: rgba(9, 31, 230, 0.932);
     width: 95%;
     margin: auto;
     position: relative;
-    /* height: 600px; */
+    height: 100%;
     display: flex;
+    /* margin-bottom: 2%; */
     /* display: block; */
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-around;
-    border: 2px solid black;
+    /* border: 2px solid rgb(240, 14, 14); */
 }
 .img-hov{
     display: block;
@@ -100,7 +107,6 @@ color: rgba(9, 31, 230, 0.932);
     width: 48.5%;
     left: 0;
     top: 0;*/
-    border: 1px solid black;
 } 
 .img-box-2{
     width: 47.5%;
@@ -113,7 +119,6 @@ color: rgba(9, 31, 230, 0.932);
   width: 48%;
   right: 0;
   top: 33px; */
-  border: 1px solid black;
 }
 .img-box-3{
      width: 21%;
@@ -126,7 +131,6 @@ color: rgba(9, 31, 230, 0.932);
   left: 33%;
   top: 50%; */
   /* bottom: 0; */
-  border: 1px solid black;
 }
 .img-box-4{
     width: 21%;
@@ -138,7 +142,6 @@ color: rgba(9, 31, 230, 0.932);
   width: 20%;
   left: 37.5%;
   top: 45%; */
-  border: 1px solid black;
 }
 .img-box-5{
     width: 47.5%;
@@ -149,44 +152,40 @@ color: rgba(9, 31, 230, 0.932);
    width: 40%;
    right: 0;
    top: 30%; */
-   border: 1px solid black;
 }
 .img-box-6{
-    /* position: absolute; */
+    position: absolute;
     width: 47.5%;
     float: left;
     height: max-content;
-    /* top: 60%;
-    left: 0;   */
-    margin-top: -4%;   
+    top: 71%;
+    left: 1%;  
+    /* margin-top: -4%;    */
      /* 
      height: 25%;
      width: 62.5%;
      right: 0;
      bottom: 0; */
-     border: 1px solid black;
 }
 /* .mar{
     margin-top: -4%;
 } */
 .img-box-7{
     width: 21%;
-    float: right;
+    float: left;
     height: max-content;
-    border: 1px solid red;
-     /* position: absolute;
-     top: 1%;
-     right: 1%; */
+      position: absolute;
+     top: 100%;
+     right: 24%; 
 
 }
 .img-box-8{
-    border: 1px solid black;
     width: 21%;
     height: max-content;
-    float: right;
-     /* position: absolute;
-     top: 1%;
-     right: 1%; */
+    float: left;
+     position: absolute;
+     top: 100%;
+     right:1%;
 }
 .hover-img{
      position: relative;
@@ -213,15 +212,23 @@ color: rgba(9, 31, 230, 0.932);
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: black;
+    background-color: rgb(61, 126, 61);
     /* background-color: #008CBA; */
+  }
+  .img-tag{
+color: white;
+font-size: 15px;
+  }
+  .img-tag-1{
+color: white;
+font-size: 25px;
   }
   .text {
     color: white;
     font-size: 20px;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 20%;
+    left: 30%;
     /* -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%); */
     transform: translate(-50%, -50%);
