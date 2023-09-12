@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    background-color: rgb(50, 50, 50);
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 color: white;
 }
@@ -57,7 +57,7 @@ background-color: red;
     width: 100%;
     float: left;
     color: black;
-    opacity: 0.2;
+    opacity: 0.5;
     position: relative;
 }
 .tage{
